@@ -1,3 +1,9 @@
+
+;Implement a representation for rectangles in
+;a plane. (Hint: You may want to make use of Exercise 2.2.) In
+;terms of your constructors and selectors, create procedures
+;that compute the perimeter and the area of a given rectangle.
+
 (define (make-rectangle length width)
    (cons length width))
 
