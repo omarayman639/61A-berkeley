@@ -6,5 +6,5 @@
 
 (define (depth ls)
    (cond ((atom? ls) 0)
-      ((max (1+ (depth (car ls))) (depth (cdr))))
+      ((max (1+ (depth (car ls))) (depth (cdr ls))))
       ))
